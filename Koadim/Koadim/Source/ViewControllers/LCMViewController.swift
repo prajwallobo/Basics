@@ -15,24 +15,28 @@ class LCMViewController: UIViewController {
         //Pass the array
         let result = lcm(arr: [2,5,10])
             print("LCM : \(result)")
-        let result1 = lcm(arr: [2,0,7])
+        let result1 = lcm(arr: [])
         print("LCM : \(result1)")
         
     }
     
     func lcm(arr : [Int]) -> Int{
-        
+        if arr.count > 0{
         var result = arr.first
         for value in 1..<arr.count{
             let divisor = gcd(arr[value], result!)
             if divisor > 0{
                 result = (arr[value] * result!) / divisor
             }else{
-                print("Divide by zero error")
+                print("LCM : Divide by zero error")
             }
             
         }
-        return result!
+            return result!
+        }else{
+            print("Empty array")
+            return 0
+        }
     }
     //Find the GCD
     func gcd(_ a : Int, _ b:Int) -> Int{
@@ -44,7 +48,7 @@ class LCMViewController: UIViewController {
                 return b
             }
         }else{
-            print("Divide by zero error")
+            print("GCD : Divide by zero error")
             return 0     }
         
     }
