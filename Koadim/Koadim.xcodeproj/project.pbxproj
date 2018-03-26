@@ -57,6 +57,7 @@
 		44B3DAA020655D0E005F664C /* KoadimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoadimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B3DAA420655D0E005F664C /* KoadimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoadimUITests.swift; sourceTree = "<group>"; };
 		44B3DAA620655D0E005F664C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44BAB4B9206924AB00019D8E /* HumanBob.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HumanBob.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +106,7 @@
 		4471CEA42066366C0073B341 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				44BAB4B9206924AB00019D8E /* HumanBob.playground */,
 				4471CEAF206638140073B341 /* NetworkServiceViewController.swift */,
 				4471CEA32066366C0073B341 /* HumanBobViewController.swift */,
 				4471CEB1206638AF0073B341 /* BankViewController.swift */,
